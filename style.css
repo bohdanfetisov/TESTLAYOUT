@@ -157,3 +157,56 @@ body{
     text-decoration: none;
     color: white;
 }
+
+#second_page{
+    padding: 60px;
+    display: inline-block;
+}
+
+#second_page_top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.second_page_column{
+    display: flex;
+    width: 50%;
+
+}
+
+#second_page_h{
+    font-size: 60px;
+    font-weight: 900;
+    width: 50%;
+    color: #333333;
+}
+
+#second_page_p{
+    align-content: center;
+    text-align: right;
+    font-weight: 700;
+    color: #333333;
+}
+
+#second_page_middle{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 80px;
+}
+
+#smile_gif{
+    padding-top: 140px;
+}
+
+.second_page_column p{
+    color: #333333;
+    font-weight: 700;
+    font-size: 18px;
+    padding-top: 320px;
+}
+
+#stars{
+    padding-left: 400px;
+}
