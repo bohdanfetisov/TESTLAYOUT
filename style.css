@@ -1,0 +1,159 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: 0 100px;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:"wdth" 100;
+}
+
+#first_page_header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 50px;
+}
+
+#first_page_nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+#first_page_logo{
+    width: 15%;
+    display: flex;
+    align-items: center;
+}
+
+#first_page_navi{
+    display: flex;
+}
+
+#first_page_navi ul{
+    list-style: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+
+#first_page_navi a{
+    text-decoration: none;
+    color: black;
+}
+
+#first_page_navi li{
+    padding: 0;
+    padding-left: 20px;
+}
+
+#first_page_contacts{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+#first_page_main{
+    display: flex;
+    align-items: stretch;
+    background-color: #3F00FF;
+    border-radius: 20px;
+    padding: 140px 60px 90px;
+    background-image: url(img/biglogo.png);
+}
+
+#first_page_main_text{
+    width: 60%;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#first_page_main_text span{
+    font-size: 60px;
+    font-weight: 900;
+}
+
+#first_page_main_img{
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-right: 30px;
+}
+
+#first_page_logo div{
+    padding-left: 5px;
+}
+
+.line{ 
+    height: 18px;
+    width: 1px;
+    background-color: #808080;
+    margin-left: 15px;
+}
+
+#first_page_social{
+    display: flex;
+}
+
+.social_first{
+    padding-right: 15px;
+}
+
+#first_page_number{
+    font-size: 16px;
+    font-weight: 600;
+}
+
+#first_page_days{
+    font-size: 12px;
+}
+
+#first_page_days img{
+ position: absolute;
+ top: 55px;
+ width: 15px;
+}
+
+#first_page_btn{
+    background: linear-gradient(134.04deg, #FFDF00 -7.01%, #FFB800 109.07%);
+    border-radius: 10px;
+    color: black;
+    font-weight: 600;
+    text-align: center;
+    width: 300px;
+    height: 60px;
+    align-content: center;
+    margin-top: 60px;
+}
+
+#first_page_square{
+    margin-top: 100px;
+}
+
+#first_page_footer {
+    position: absolute;
+    bottom: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    color: white;
+    font-size: 14px;
+}
+
+#first_page_footer img{
+    margin-top: 10px;
+}
+
+#first_page_footer a{
+    text-decoration: none;
+    color: white;
+}
