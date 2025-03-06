@@ -208,5 +208,17 @@ body{
 }
 
 #stars{
-    padding-left: 400px;
+    padding-left: 350px;
+}
+
+#yellow_box{
+    position: absolute;
+    top: 145px;
+    left: 50px;
+}
+
+#yellow_box img{
+    width: 80%;
+    -webkit-mask-image: linear-gradient(to right, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 10%);
+    mask-image: linear-gradient(to right, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 10%);
 }
